@@ -1,11 +1,11 @@
-/** HI
+/**
  * @format
  */
 // import of polyfills should always be first
 import './src/polyfills/PromiseWithResolvers';
 import {AppRegistry} from 'react-native';
 import App from './src/App';
-
+import Config from './src/CONFIG';
 import additionalAppSetup from './src/setup';
 
 // Define EXPO_OS before any imports to prevent console errors from Expo DOM components
